@@ -1,0 +1,239 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Oswald', sans-serif ;
+}
+body{
+  background-color: #8959e0;
+  background: url("https://media1.tenor.com/m/LNtSz_CU-ZMAAAAd/vaporwave-aesthetic.gif") center/cover no-repeat;
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+}
+body::before{   
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+.darkmode {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: #000000;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.fa{
+  width: 250px;
+  color: rgb(0, 0, 0);
+  background: #0F0F0F;
+  border: 2px solid rgb(124, 58, 237);
+  border-radius: 5px;
+}
+.infoFA{
+  width: 250px;
+  text-align: start;
+}
+.imgFA{
+  display: block;
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+  ;
+}
+.fa-container {
+  display: flex;
+  gap: 5px;
+  margin-right: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+  background-color: #1A1A1A;
+}
+.ep-container {
+  display: flex;
+  gap:  5px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+    background-color: #1A1A1A;
+}
+.ha-container {
+    display: flex;
+    gap:  5px;
+    margin-right: 10px;
+    margin-top: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+      background-color: #1A1A1A;
+}
+.ho-container {
+    display: flex;
+    gap:  5px;
+    margin-top: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+      background-color: #1A1A1A;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1A1A1A;
+  color: #E5E5E5;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+  font-family: 'Oswald', sans-serif;
+  min-height: 200px;
+}
+.foto{
+  text-align: center;
+  margin-top: 25px; 
+}
+.foto img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+header {
+  text-align: center;
+}
+
+header h1 {
+  background-color: rgba(20, 20, 20, 0);
+  color: #7C3AED;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 40px;
+}
+
+header h3 {
+  background-color: #0F0F0F;
+  color: #5B21B6;
+  display: inline-block;
+  padding: 2px 10px;
+
+  border-radius: 20px;
+}
+ main{
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto ;
+ }
+.s1 {
+  display: flex;
+  gap: 20px;
+}
+
+.s2 {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+ 
+article{
+  display: inline-block;
+  background: black;
+  margin-bottom: 20px;
+}
+.contato{
+  text-align: center;
+  margin: 50px;
+}
+.ep{
+ width: 250px;
+   border: 2px solid rgb(124, 58, 237);
+  border-radius: 5px;
+  background-color: #0F0F0F
+}
+.infoEP{
+  width: 250px;
+  text-align: start;
+}
+.imgEP{
+  display: block;
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+}
+.ha{
+  width: 250px;
+  border: 2px solid rgb(124, 58, 237);
+  border-radius: 5px;
+  background-color: #0F0F0F
+
+}
+.infoHA{
+  width: 250px;
+  text-align: start;
+}
+.imgHA{
+  display: block;
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+}
+.ho{
+  width: 250px;
+  border: 2px solid rgb(124, 58, 237);
+  border-radius: 5px;
+  background-color: #0F0F0F
+}
+.infoHO{
+  width: 250px;
+  text-align: start;
+}
+.imgHO{
+  display: block;
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+}
+li{
+  background: none;
+  color: #5B21B6;
+  font-size: 18px
+}
+
+li::marker{
+  color: rgb(124, 58, 237);
+}
+.fa{
+  font-family: 'Oswald', sans-serif;
+}
+h2{
+  color: #7C3AED;
+}
+.text-container:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(124, 58, 237, 0.6);
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.hrs{
+    color:#5B21B6
+}
+
+p{
+    color: #5B21B6;
+    margin-bottom: 10px;
+}
+ul{
+    list-style-position: inside;
+}
+a{
+    color:#5B21B6;
+}
+.cont{
+    margin-bottom: 10px;
+}
+.s1, .s2 {
+  justify-content: center;
+}
+img{
+  filter: drop-shadow(0 0 5px #7C3AED);
+}
