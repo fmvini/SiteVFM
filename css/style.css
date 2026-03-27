@@ -215,7 +215,10 @@ h2{
   border-radius: 20px;
 }
 .hrs{
-    color:#5B21B6
+    color:#5B21B6;
+    background-color:#5B21B6;
+    border: none;
+    height: 2px;
 }
 
 p{
